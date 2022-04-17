@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Page for class in a college</title>
+</head>
+
+<body>
+    <input type="text" name="studentname" id="student" placeholder="student name">
+    <input type="text" name="studentscore" id="score" placeholder="student score">
+    <button onclick="stam_func()">send</button>
+    <table>
+        <thead>
+            <tr>
+                <td>Students Names</td>
+                <td>Students Scores</td>
+            </tr>
+        </thead>
+        <tbody id="mytable">
+
+        </tbody>
+    </table>
+    <hr />
+    <div class="father">
+        <div> <span>Students Average</span> 
+            <div id="avg"></div>
+        </div>
+        <div> <span>The number of Students </span> 
+            <div id="num"></div>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
